@@ -1,0 +1,35 @@
+@import (reference) './variables.less';
+
+section#projects {
+	div.projects {
+		width: 30em;
+		max-width: ~'calc(100% - 2.5em)';
+		margin: 1.5em auto;
+		margin-top: 1em;
+		text-align: left;
+
+		>div {
+			padding: 1.5em 2em;
+			margin-bottom: 1em;
+			background-color: @white;
+			border-bottom: 2px solid darken(@light, 5%);
+
+			h5 {
+				color: @medium;
+				padding: 0;
+				font-weight: 300;
+
+				span {
+					color: @primary;
+					font-weight: 400;
+				}
+			}
+
+			h2 {
+				padding: 0.125em 0;
+				margin-bottom: 0.25em;
+				font-weight: 300;
+			}
+		}
+	}
+}
