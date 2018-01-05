@@ -1,0 +1,59 @@
+section#curriculum div.sections {
+  padding-bottom: 2em;
+}
+section#curriculum div.sections > div {
+  display: inline-block;
+  width: 33.333%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+@media only screen and (max-width: 660px) {
+  section#curriculum div.sections > div {
+    width: 50%;
+  }
+}
+section#curriculum div.sections > div h4 {
+  color: #3498db;
+  margin: 0.5em 0;
+  margin-bottom: 0.25em;
+  font-size: 2em;
+  font-weight: 300;
+}
+section#curriculum div.sections > div h4 span {
+  border-bottom: 2px solid #3498db;
+}
+section#curriculum div.sections > div div.list {
+  display: inline-block;
+  text-align: left;
+}
+section#curriculum div.sections > div div.list > div {
+  padding: 0.25em;
+  font-size: 1.25em;
+}
+section#curriculum div.sections > div div.list > div i,
+section#curriculum div.sections > div div.list > div div.sql,
+section#curriculum div.sections > div div.list > div span {
+  display: inline-block;
+  vertical-align: middle;
+}
+section#curriculum div.sections > div div.list > div i {
+  margin-right: 0.5em;
+  color: #3498db;
+}
+section#curriculum div.sections > div div.list > div div.sql {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iNzY4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9IiMyOTgwYjkiIGQ9Ik0zODQgOTYwQzE3MS45NjkgOTYwIDAgOTAyLjYyNSAwIDgzMmMwLTM4LjYyNSAwLTgwLjg3NSAwLTEyOCAwLTExLjEyNSA1LjU2Mi0yMS42ODggMTMuNTYyLTMyQzU2LjM3NSA3MjcuMTI1IDIwNS4yNSA3NjggMzg0IDc2OHMzMjcuNjI1LTQwLjg3NSAzNzAuNDM4LTk2YzggMTAuMzEyIDEzLjU2MiAyMC44NzUgMTMuNTYyIDMyIDAgMzcuMDYyIDAgNzYuMzc1IDAgMTI4Qzc2OCA5MDIuNjI1IDU5NiA5NjAgMzg0IDk2MHpNMzg0IDcwNEMxNzEuOTY5IDcwNCAwIDY0Ni42MjUgMCA1NzZjMC0zOC42NTYgMC04MC44NDQgMC0xMjggMC02Ljc4MSAyLjU2Mi0xMy4zNzUgNi0xOS45MDZsMCAwQzcuOTM4IDQyNCAxMC41IDQxOS45NjkgMTMuNTYyIDQxNiA1Ni4zNzUgNDcxLjA5NCAyMDUuMjUgNTEyIDM4NCA1MTJzMzI3LjYyNS00MC45MDYgMzcwLjQzOC05NmMzLjA2MiAzLjk2OSA1LjYyNSA4IDcuNTYyIDEyLjA5NGwwIDBjMy40MzggNi41MzEgNiAxMy4xMjUgNiAxOS45MDYgMCAzNy4wNjIgMCA3Ni4zNDQgMCAxMjhDNzY4IDY0Ni42MjUgNTk2IDcwNCAzODQgNzA0ek0zODQgNDQ4QzE3MS45NjkgNDQ4IDAgMzkwLjY1NiAwIDMyMGMwLTIwLjIxOSAwLTQxLjU5NCAwLTY0IDAtMjAuMzQ0IDAtNDEuNDY5IDAtNjRDMCAxMjEuMzQ0MDAwMDAwMDAwMDUgMTcxLjk2OSA2NCAzODQgNjRjMjEyIDAgMzg0IDU3LjM0NCAzODQgMTI4IDAgMTkuOTY5IDAgNDEuMTU2IDAgNjQgMCAxOS41OTQgMCA0MC4yNSAwIDY0Qzc2OCAzOTAuNjU2IDU5NiA0NDggMzg0IDQ0OHpNMzg0IDEyOGMtMTQxLjM3NSAwLTI1NiAyOC41OTQtMjU2IDY0czExNC42MjUgNjQgMjU2IDY0IDI1Ni0yOC41OTQgMjU2LTY0UzUyNS4zNzUgMTI4IDM4NCAxMjh6Ii8+PC9zdmc+Cg==);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section#curriculum div.sections > div div.list > div span.empty {
+  margin-right: 1.5em;
+}
+@media only screen and (max-width: 450px) {
+  section#curriculum div.sections > div div.list > div span.empty.collapsible {
+    margin-right: 0;
+  }
+}

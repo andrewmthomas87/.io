@@ -1,0 +1,113 @@
+section#schedule > section {
+  overflow-x: auto;
+}
+section#schedule div.schedule {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: stretch;
+  min-width: 45em;
+  padding: 0 1.5em;
+  margin: 1.5em auto;
+  margin-top: 1em;
+  line-height: 1.5em;
+  text-align: left;
+}
+section#schedule div.schedule > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+section#schedule div.schedule > div span.header {
+  display: block;
+  color: #eee;
+  padding: 0.75em 1.25em;
+  background-color: #333;
+  border-bottom: 2px solid #222;
+  text-align: left;
+}
+section#schedule div.schedule > div.weeks {
+  color: #fff;
+}
+section#schedule div.schedule > div.weeks > div {
+  height: 3em;
+  padding: 0 1.25em;
+  background-color: #333;
+  border-bottom: 2px solid #222;
+}
+section#schedule div.schedule > div.focuses {
+  color: #fff;
+  text-align: center;
+}
+section#schedule div.schedule > div.focuses > div {
+  padding: 0 1.25em;
+  background-color: #3498db;
+  border-bottom: 2px solid #2980b9;
+}
+section#schedule div.schedule > div.focuses > div.foundational {
+  height: 18em;
+}
+section#schedule div.schedule > div.focuses > div.front-end {
+  height: 18em;
+}
+section#schedule div.schedule > div.focuses > div.back-end {
+  height: 12em;
+}
+section#schedule div.schedule > div.focuses > div.integration {
+  height: 9em;
+}
+section#schedule div.schedule > div.focuses > div.filler {
+  height: 3em;
+}
+section#schedule div.schedule > div.events > div {
+  padding: 0 1.5em;
+}
+section#schedule div.schedule > div.events > div.spacer {
+  background-color: #fff;
+}
+section#schedule div.schedule > div.events > div.spacer.spacer-1 {
+  height: 3em;
+}
+section#schedule div.schedule > div.events > div.spacer.spacer-2 {
+  height: 6em;
+}
+section#schedule div.schedule > div.events > div.event {
+  color: #222;
+  height: 3em;
+  background-color: #e1e1e1;
+  border-bottom: 2px solid #d5d5d5;
+}
+section#schedule div.schedule > div.events > div.event.sprint {
+  color: #fff;
+  background-color: #2980b9;
+  border-bottom: 2px solid #2472a4;
+}
+section#schedule div.schedule > div.events > div.event.demo {
+  color: #fff;
+  background-color: #27ae60;
+  border-bottom: 2px solid #229955;
+}
+section#schedule div.schedule > div.work {
+  flex: 1;
+}
+section#schedule div.schedule > div.work > div {
+  padding: 0.75em 1.5em;
+  background-color: #fff;
+  border-bottom: 2px solid #e1e1e1;
+  justify-content: flex-start;
+}
+section#schedule div.schedule > div.work > div.work-1 {
+  height: 9em;
+}
+section#schedule div.schedule > div.work > div.work-2 {
+  height: 9em;
+}
+section#schedule div.schedule > div.work > div.work-3 {
+  height: 18em;
+}
+section#schedule div.schedule > div.work > div.work-4 {
+  height: 12em;
+}
+section#schedule div.schedule > div.work > div.work-5 {
+  height: 12em;
+}

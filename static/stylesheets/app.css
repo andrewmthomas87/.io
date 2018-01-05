@@ -1,0 +1,137 @@
+html {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -moz-osx-font-smoothing: auto !important;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #eee;
+  overflow-y: auto;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #222;
+  border-bottom: 4px solid #111;
+  text-align: right;
+  z-index: 100;
+}
+nav span.logo {
+  float: left;
+  color: #fff;
+  padding: 0.609375em 1.25em;
+  margin-bottom: -4px;
+  background-color: #3498db;
+  border-bottom: 4px solid #2980b9;
+  font-weight: 300;
+  line-height: 1.125em;
+  cursor: pointer;
+}
+nav span.logo span {
+  color: #9acced;
+}
+nav > div > a {
+  display: inline-block;
+  color: #aaa;
+  padding: 1em 1.25em;
+  padding-bottom: calc(1em + 4px);
+  margin-bottom: -4px;
+  font-size: 0.75em;
+  font-weight: 300;
+  line-height: 1.125em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 550px) {
+  nav > div > a {
+    padding: 1em 0.875em;
+  }
+}
+@media screen and (max-width: 457px) {
+  nav > div > a {
+    padding: 1.2em 0.875em;
+    padding-bottom: calc(1.2em + 4px);
+    font-size: 0.625em;
+    line-height: 1.35em;
+  }
+}
+nav > div > a:last-child {
+  margin-right: 1em;
+}
+nav > div > a:hover {
+  color: #fff;
+}
+nav > div > a.active {
+  color: #fff;
+  padding-bottom: 1em;
+  background-color: #333;
+  border-bottom: 4px solid #aaa;
+  font-weight: 400;
+}
+@media screen and (max-width: 457px) {
+  nav > div > a.active {
+    padding-bottom: 1.2em;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0.25em 0;
+  margin: 0;
+}
+body > section {
+  min-height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+body > section h1.title {
+  color: #222;
+  padding: 0.25em;
+  margin-top: 44px;
+  background-color: #fff;
+  font-size: 5em;
+  font-weight: 200;
+  text-align: center;
+}
+body > section h1.title + h3 {
+  margin-top: 0.5em;
+}
+body > section h3 {
+  color: #333;
+  padding: 0;
+  margin-top: 1.5em;
+  font-size: 2em;
+  font-weight: 300;
+}
+body > section p {
+  color: #333;
+  width: 35em;
+  max-width: calc(100% - 2.5em);
+  margin: 1em auto;
+  margin-top: 0.5em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+body > section p span {
+  color: #3498db;
+}
+body > section div.container {
+  width: 35em;
+  max-width: calc(100% - 2.5em);
+  margin: 1.5em auto;
+  margin-top: 1em;
+}
+body > section div.container.large {
+  width: 50em;
+}
